@@ -13,13 +13,4 @@ import ua.com.kisit.horseracing_project_2026.service.RaceService;
 public class RaceController {
 
     private final RaceService raceService;
-
-    // Метод для адмінів
-//    @GetMapping("/races")
-//    public String getAdminRacesPage(Model model) {
-//
-//        model.addAttribute("races", raceService.getAllRaces());
-//
-//        return "races-admin";
-//    }
 }
