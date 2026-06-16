@@ -30,9 +30,6 @@
     <properties>
         <java.version>17</java.version>
     </properties>
-         <properties>
-  <sonar.organization>t1messs</sonar.organization>
-</properties>
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
