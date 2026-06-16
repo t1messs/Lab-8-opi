@@ -18,8 +18,6 @@ import java.security.Principal;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
-import java.security.Principal;
-
 @Controller
 @RequiredArgsConstructor
 public class UserController {
