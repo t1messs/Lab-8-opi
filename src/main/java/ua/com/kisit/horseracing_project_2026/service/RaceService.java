@@ -66,7 +66,7 @@ public class RaceService {
         if (race == null) return;
 
         if ("Завершено".equals(race.getStatus())) {
-            System.out.println("Цей забіг вже завершено. Скасовуємо повторний запис.");
+            logger.println("Цей забіг вже завершено. Скасовуємо повторний запис.");
             return;
         }
 
